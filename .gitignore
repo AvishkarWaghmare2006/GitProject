@@ -1,0 +1,22 @@
+# Python
+__pycache__/
+*.pyc
+
+# Jupyter Notebook
+.ipynb_checkpoints/
+
+# Virtual Environment
+venv/
+env/
+
+# Dataset
+data/
+
+# Model files
+*.h5
+*.pkl
+*.joblib
+
+# IDE
+.vscode/
+.idea/
