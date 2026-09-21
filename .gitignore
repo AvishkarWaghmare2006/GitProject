@@ -1,6 +1,47 @@
-.venv/
+# Python
 __pycache__/
-*.pyc
+*.py[cod]
+*.pyo
+
+# Virtual environments
+.venv/
+venv/
+env/
+ENV/
+
+# Pytest
 .pytest_cache/
+.coverage
+htmlcov/
+
+# Jupyter
 .ipynb_checkpoints/
+
+# Environment/secrets
 .env
+.env.*
+!.env.example
+
+# IDE
+.vscode/
+.idea/
+
+# OS
+.DS_Store
+Thumbs.db
+
+# ML/Dataset artifacts
+data/
+models/
+checkpoints/
+*.pkl
+*.joblib
+*.h5
+*.pt
+*.pth
+
+# Jenkins
+test-results/
+
+# Logs
+*.log
